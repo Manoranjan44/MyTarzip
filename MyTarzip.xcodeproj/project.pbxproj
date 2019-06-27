@@ -15,6 +15,7 @@
 		8419128E22C5331D00D43299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8419128C22C5331D00D43299 /* LaunchScreen.storyboard */; };
 		8419129922C5331E00D43299 /* MyTarzipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419129822C5331E00D43299 /* MyTarzipTests.swift */; };
 		841912A422C5331E00D43299 /* MyTarzipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841912A322C5331E00D43299 /* MyTarzipUITests.swift */; };
+		841912B222C534F200D43299 /* MSBadgeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841912B122C534F200D43299 /* MSBadgeBarButtonItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8419129F22C5331E00D43299 /* MyTarzipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTarzipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841912A322C5331E00D43299 /* MyTarzipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTarzipUITests.swift; sourceTree = "<group>"; };
 		841912A522C5331E00D43299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841912B122C534F200D43299 /* MSBadgeBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSBadgeBarButtonItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8419128C22C5331D00D43299 /* LaunchScreen.storyboard */,
 				8419128F22C5331D00D43299 /* Info.plist */,
 				8419128722C5331500D43299 /* MyTarzip.xcdatamodeld */,
+				841912B122C534F200D43299 /* MSBadgeBarButtonItem.swift */,
 			);
 			path = MyTarzip;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841912B222C534F200D43299 /* MSBadgeBarButtonItem.swift in Sources */,
 				8419128322C5331500D43299 /* ViewController.swift in Sources */,
 				8419128922C5331500D43299 /* MyTarzip.xcdatamodeld in Sources */,
 				8419128122C5331500D43299 /* AppDelegate.swift in Sources */,
